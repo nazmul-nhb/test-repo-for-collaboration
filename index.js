@@ -5,16 +5,16 @@ console.log('Hi from Shejan-3');
 console.log('Hi from Shejan-4');
 console.log('Hi from Shejan-5');
 
-// find multiples of a number
-const findMultiples = (number = 1) => {
-    let multiples = [];
+// find factors of a number
+const findFactors = (number = 1) => {
+    let factors = [];
     for (let i = 1; i <= number; i++) {
         if (number % i === 0) {
-            multiples.push(i)
+            factors.push(i)
         }
     }
-    return multiples;
+    return factors;
 }
 
-console.log(findMultiples(28));
-console.log(findMultiples(8));
+console.log(findFactors(28));
+console.log(findFactors(8));
